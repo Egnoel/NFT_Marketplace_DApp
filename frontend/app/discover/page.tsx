@@ -11,6 +11,7 @@ import { Filter } from 'lucide-react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import DiscoverCard from '@/components/DiscoverCard';
 import { Button } from '@/components/ui/button';
+import FilterComponent from '@/components/Filter';
 
 const page = () => {
   const [tab1, setTab1] = useState(true);
@@ -187,10 +188,7 @@ const page = () => {
               <SelectItem value="oldest">Ending Soon</SelectItem>
             </SelectContent>
           </Select>
-          <div className="flex flex-row gap-3 w-24 h-9  justify-center items-center bg-gray-22 rounded">
-            <Filter className="text-white" />
-            <span className="text-primary-5">Filter</span>
-          </div>
+          <FilterComponent />
         </div>
       </div>
       {tab1 ? (

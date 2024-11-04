@@ -423,6 +423,26 @@
   resolved "https://registry.yarnpkg.com/@radix-ui/react-context/-/react-context-1.1.1.tgz#82074aa83a472353bb22e86f11bcbd1c61c4c71a"
   integrity sha512-UASk9zi+crv9WteK/NU4PLvOoL3OuE6BWVKNF6hPRBtYBDXQ2u5iu3O59zUlJiTVvkyuycnqrztsHVJwcK9K+Q==
 
+"@radix-ui/react-dialog@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@radix-ui/react-dialog/-/react-dialog-1.1.2.tgz#d9345575211d6f2d13e209e84aec9a8584b54d6c"
+  integrity sha512-Yj4dZtqa2o+kG61fzB0H2qUvmwBA2oyQroGLyNtBj1beo1khoQ3q1a2AO8rrQYjd8256CO9+N8L9tvsS+bnIyA==
+  dependencies:
+    "@radix-ui/primitive" "1.1.0"
+    "@radix-ui/react-compose-refs" "1.1.0"
+    "@radix-ui/react-context" "1.1.1"
+    "@radix-ui/react-dismissable-layer" "1.1.1"
+    "@radix-ui/react-focus-guards" "1.1.1"
+    "@radix-ui/react-focus-scope" "1.1.0"
+    "@radix-ui/react-id" "1.1.0"
+    "@radix-ui/react-portal" "1.1.2"
+    "@radix-ui/react-presence" "1.1.1"
+    "@radix-ui/react-primitive" "2.0.0"
+    "@radix-ui/react-slot" "1.1.0"
+    "@radix-ui/react-use-controllable-state" "1.1.0"
+    aria-hidden "^1.1.1"
+    react-remove-scroll "2.6.0"
+
 "@radix-ui/react-direction@1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@radix-ui/react-direction/-/react-direction-1.1.0.tgz#a7d39855f4d077adc2a1922f9c353c5977a09cdc"
@@ -1801,10 +1821,11 @@ foreground-child@^3.1.0:
     "@radix-ui/react-select" "^2.1.2"
     "@radix-ui/react-separator" "^1.1.0"
     "@radix-ui/react-slot" "^1.1.0"
+    "@radix-ui/react-tabs" "^1.1.1"
     class-variance-authority "^0.7.0"
     clsx "^2.1.1"
     dotenv "^16.4.5"
-    frontend "file:../../../../AppData/Local/Yarn/Cache/v6/npm-frontend-0.1.0-1cb90ba9-0aec-4727-8a1c-0562b40973d2-1730729791896/node_modules/frontend"
+    frontend "file:../../../../AppData/Local/Yarn/Cache/v6/npm-frontend-0.1.0-8c9ff7f2-7b1e-442b-8628-52557131e7cd-1730747627037/node_modules/frontend"
     lucide-react "^0.454.0"
     next "15.0.2"
     react "19.0.0-rc-02c0e824-20241028"
