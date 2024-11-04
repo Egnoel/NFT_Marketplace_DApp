@@ -1,9 +1,15 @@
-import React from 'react';
+'use client';
+
+import { useEffect, useState } from 'react';
+import { Web3 } from 'web3';
 import Dropdown from './Dropdown';
 import { Bell, Search } from 'lucide-react';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
+import WalletConnect from './WalletConnect';
 const Navbar = () => {
+  const [web3, setWeb3] = useState<Web3 | null>(null);
+
   const dropItems = [
     {
       name: 'marketplace',
@@ -40,6 +46,21 @@ const Navbar = () => {
       ],
     },
   ];
+
+  useEffect(() => {
+    // ensure that there is an injected the Ethereum provider
+    if (window.ethereum) {
+      // use the injected Ethereum provider to initialize Web3.js
+      setWeb3(new Web3(window.ethereum));
+      // check if Ethereum provider comes from MetaMask
+      if (window.ethereum.isMetaMask) {
+        console.log('MetaMask is active');
+      } else {
+        console.log('MetaMask is not active');
+      }
+    }
+  }, []);
+
   return (
     <div className="bg-gray-23 px-7 py-4 flex flex-row justify-between">
       <div className="flex flex-row gap-8 items-center">
@@ -62,9 +83,7 @@ const Navbar = () => {
         <Button className="bg-gray-22 px-4 py-2 hover:bg-inherit">
           BNB Chain
         </Button>
-        <Button className="bg-primary-5 px-4 py-2 hover:bg-inherit">
-          Connect Wallet
-        </Button>
+        <WalletConnect web3={web3} />
       </div>
     </div>
   );
