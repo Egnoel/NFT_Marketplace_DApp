@@ -28,10 +28,10 @@ const DiscoverCard = ({ collection }: DiscoverCardProps) => {
       />
       <div className="px-3 py-2 flex- flex-col gap-7 bg-gray-22 rounded-b-lg">
         <div className="flex flex-row justify-between">
-          <div className="flex flex-row gap-3">
+          <div className="flex flex-row gap-3 items-center">
             <span className="text-gray-13">{collection.chain}</span>
-            <span className="absolute bg-green-5 flex items-center justify-center rounded-full bottom-1 right-1">
-              <Check className="text-white w-4 h-4" />
+            <span className=" bg-green-5 flex items-center justify-center rounded-full w-4 h-4">
+              <Check className="text-white w-2 h-2" />
             </span>
           </div>
           <Image
