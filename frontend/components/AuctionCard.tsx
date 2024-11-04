@@ -25,8 +25,8 @@ const AuctionCard = ({ image }: { image: string }) => {
         </div>
         <div className="flex flex-row justify-between mt-3">
           <span className="text-white">Red Car</span>
-          <span className="flex flex-row gap-2">
-            6
+          <div className="flex flex-row gap-2 items-center">
+            <span className="text-gray-13 text-sm">6</span>
             <Image
               src="/images/group-items.png"
               alt="group"
@@ -34,7 +34,7 @@ const AuctionCard = ({ image }: { image: string }) => {
               height={15}
               className="object-contain"
             />
-          </span>
+          </div>
         </div>
         <Separator orientation="horizontal" className="bg-gray-13 mt-3" />
         <div className="flex flex-row justify-between mt-3">

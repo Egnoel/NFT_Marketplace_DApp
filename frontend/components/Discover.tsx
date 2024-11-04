@@ -153,8 +153,9 @@ const Discover = () => {
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="newest">Newest</SelectItem>
-              <SelectItem value="popular">Popular</SelectItem>
-              <SelectItem value="oldest">Oldest</SelectItem>
+              <SelectItem value="popular">Price: Low to High</SelectItem>
+              <SelectItem value="oldest">Price: High to Low</SelectItem>
+              <SelectItem value="oldest">Ending Soon</SelectItem>
             </SelectContent>
           </Select>
           <div className="flex flex-row gap-3 px-4 py-2 bg-gray-22 rounded">
