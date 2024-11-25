@@ -23,7 +23,7 @@ const page = () => {
     {
       id: 1,
       title: 'Impostors Genesis',
-      price: 26750.07,
+      price: 1.13,
       image: '/images/discover1.png',
       chain: 'Polychain Monsters',
       check: true,
@@ -31,7 +31,7 @@ const page = () => {
     {
       id: 2,
       title: 'Azuki',
-      price: 26750.07,
+      price: 0.93,
       image: '/images/discover2.png',
       chain: 'Crypto Fight',
       check: true,
@@ -39,7 +39,7 @@ const page = () => {
     {
       id: 3,
       title: 'Kaiju Kingz',
-      price: 26750.07,
+      price: 0.85,
       image: '/images/discover3.png',
       chain: 'Polychain Monsters',
       check: false,
@@ -47,7 +47,7 @@ const page = () => {
     {
       id: 4,
       title: 'Kiwami',
-      price: 26750.07,
+      price: 0.77,
       image: '/images/discover4.png',
       chain: 'Polychain Monsters',
       check: false,
@@ -55,7 +55,7 @@ const page = () => {
     {
       id: 5,
       title: 'Gold Vip Access Pass',
-      price: 26750.07,
+      price: 0.72,
       image: '/images/discover5.png',
       chain: 'Polychain Monsters',
       check: true,
@@ -63,7 +63,7 @@ const page = () => {
     {
       id: 6,
       title: 'Jenny Wilsom',
-      price: 26750.07,
+      price: 0.64,
       image: '/images/discover6.png',
       chain: 'Polychain Monsters',
       check: true,
@@ -71,7 +71,7 @@ const page = () => {
     {
       id: 7,
       title: 'Impostors Genesis',
-      price: 26750.07,
+      price: 0.91,
       image: '/images/discover7.png',
       chain: 'Polychain Monsters',
       check: true,
@@ -79,7 +79,7 @@ const page = () => {
     {
       id: 8,
       title: 'Annette Black',
-      price: 26750.07,
+      price: 1.0,
       image: '/images/discover8.png',
       chain: 'Magic Beasties',
       check: true,
@@ -87,7 +87,7 @@ const page = () => {
     {
       id: 9,
       title: 'Gold Vip Access Pass',
-      price: 26750.07,
+      price: 0.75,
       image: '/images/discover9.png',
       chain: 'Polychain Monsters',
       check: false,
@@ -95,7 +95,7 @@ const page = () => {
     {
       id: 10,
       title: 'Impostors Genesis',
-      price: 26750.07,
+      price: 0.75,
       image: '/images/discover10.png',
       chain: 'Polychain Monsters',
       check: true,
@@ -103,7 +103,7 @@ const page = () => {
     {
       id: 11,
       title: 'Marvin MacKinney',
-      price: 26750.07,
+      price: 1.0,
       image: '/images/discover11.png',
       chain: 'Crypto Fight',
       check: false,
@@ -111,7 +111,7 @@ const page = () => {
     {
       id: 12,
       title: 'Gold Vip Access Pass',
-      price: 26750.07,
+      price: 0.64,
       image: '/images/discover12.png',
       chain: 'Polychain Monsters',
       check: true,
@@ -119,7 +119,7 @@ const page = () => {
     {
       id: 13,
       title: 'Gold Vip Access Pass',
-      price: 26750.07,
+      price: 0.07,
       image: '/images/discover13.png',
       chain: 'Polychain Monsters',
       check: true,
@@ -127,7 +127,7 @@ const page = () => {
     {
       id: 14,
       title: 'Gold Vip Access Pass',
-      price: 26750.07,
+      price: 1.07,
       image: '/images/discover14.png',
       chain: 'Polychain Monsters',
       check: true,
@@ -135,7 +135,7 @@ const page = () => {
     {
       id: 15,
       title: 'Gold Vip Access Pass',
-      price: 26750.07,
+      price: 1.26,
       image: '/images/discover15.png',
       chain: 'Polychain Monsters',
       check: true,
@@ -143,7 +143,7 @@ const page = () => {
     {
       id: 16,
       title: 'Gold Vip Access Pass',
-      price: 26750.07,
+      price: 1.67,
       image: '/images/discover16.png',
       chain: 'Tales Of Ragnarok',
       check: true,

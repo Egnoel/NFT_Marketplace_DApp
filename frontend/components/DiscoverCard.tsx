@@ -60,7 +60,7 @@ const DiscoverCard = ({ collection }: DiscoverCardProps) => {
         <Separator orientation="horizontal" className="bg-gray-13 mt-3" />
         <div className="flex flex-col mt-3">
           <span className="text-sm text-gray-13">price</span>
-          <span className="text-white">{collection.price}</span>
+          <span className="text-white">{collection.price} BUSD</span>
         </div>
       </div>
     </div>
